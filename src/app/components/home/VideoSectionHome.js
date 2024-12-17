@@ -52,7 +52,7 @@ export default function VideoSectionHome() {
               <FaTimes />
             </button>
             <iframe
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              src="https://www.youtube.com/embed/nPtqxLSicdk"
               title="Video"
               frameBorder="0"
               allow="autoplay; fullscreen"
