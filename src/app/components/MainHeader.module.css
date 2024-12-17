@@ -11,7 +11,7 @@
 }
 .mainHeader__bg a {
   position: relative;
-  padding: 0 clamp(15px, 1.5vw, 1.5vw);
+  padding: 0 clamp(20px, 3vw, 3vw);
   border-left: solid 1.5px #bbb;
 }
 .mainHeader__bg a:last-child {
@@ -27,7 +27,6 @@
 
 .menu {
   display: flex;
-  gap: 20px;
 }
 
 /* Mobile Styles */

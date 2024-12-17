@@ -28,7 +28,7 @@ const dataHowCanWeHelp1 = [
   {
     id: 5,
     image: "/help/5.png",
-    title: "Radiation Therapy",
+    title: "Pharmacy",
   },
 ];
 

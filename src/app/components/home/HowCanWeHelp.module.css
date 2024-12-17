@@ -72,6 +72,10 @@
   fill: var(--blue);
 }
 
+.howCanWeHelp__columnContent h3 {
+  color: var(--primary);
+}
+
 @media only screen and (max-width: 1024px) {
   .howCanWeHelp__row {
     grid-template-columns: 1fr;
