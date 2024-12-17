@@ -7,3 +7,8 @@
   min-height: clamp(10px, 2vh, 2vh);
   margin-bottom: -1px;
 }
+.sliderConatainer {
+  position: relative;
+  background-color: var(--primary);
+  padding: clamp(40px, 5vh, 5vh) 0;
+}

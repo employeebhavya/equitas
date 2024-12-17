@@ -37,7 +37,7 @@ function HowCanWeHelp() {
     <section className={styles.howCanWeHelp}>
       <div className="container">
         <div className={styles.howCanWeHelp__mainRow}>
-          <h2>How can we Help</h2>
+          <h2 className="h1">How can we Help</h2>
           <div className={styles.howCanWeHelp__row}>
             <div className={styles.howCanWeHelp__columnMain0}>
               {dataHowCanWeHelp.map((item) => (

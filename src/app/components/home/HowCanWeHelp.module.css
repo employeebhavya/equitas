@@ -1,6 +1,7 @@
 .howCanWeHelp {
   position: relative;
-  padding: clamp(40px, 5vh, 5vh) 0;
+  padding: clamp(60px, 7vh, 7vh) 0;
+  padding-bottom: 0;
 }
 .howCanWeHelp__mainRow {
   display: flex;
@@ -60,7 +61,7 @@
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  bottom: 3px;
+  bottom: 8px;
   left: 0;
   width: 100%;
   padding: clamp(10px, 1vh, 1vh) clamp(5px, 1vw, 1vw);
@@ -75,5 +76,8 @@
   .howCanWeHelp__row {
     grid-template-columns: 1fr;
     row-gap: 30px;
+  }
+  .howCanWeHelp__columnMain1 .howCanWeHelp__columnContent {
+    bottom: 6px;
   }
 }

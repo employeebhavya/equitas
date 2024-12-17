@@ -16,9 +16,11 @@ function page() {
     <>
       <HeroSection />
       <section className={styles.line}></section>
-      <div className="container" style={{ backgroundColor: "var(--blue)" }}>
-        <Slider />
-      </div>
+      <section className={styles.sliderConatainer}>
+        <div className="container">
+          <Slider />
+        </div>
+      </section>
       <LegacySection />
       <Sharadamba />
       <MasterHealth />

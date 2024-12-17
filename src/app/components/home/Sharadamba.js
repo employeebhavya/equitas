@@ -8,7 +8,7 @@ function Sharadamba() {
         <div className={styles.sharadamba__row}>
           <div className={styles.sharadamba__column}>
             <h2 className="h1">
-              With the blessings of Sri Sharadamba & their holiness
+              With the blessings of Sri Sharadamba <br></br> & their holiness
             </h2>
             <p>
               With the grace of Goddess Sri Sharadamba and blessings from his

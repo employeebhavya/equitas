@@ -15,19 +15,19 @@ const MneuLinks = [
   },
   {
     title: "About",
-    href: "/",
+    href: "#",
   },
   {
     title: "Services",
-    href: "/",
+    href: "#",
   },
   {
     title: "Doctors",
-    href: "/",
+    href: "#",
   },
   {
     title: "Contact",
-    href: "/",
+    href: "#",
   },
 ];
 

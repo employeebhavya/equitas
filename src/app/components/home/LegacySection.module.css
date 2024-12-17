@@ -1,6 +1,7 @@
 .legacySection {
   position: relative;
-  padding: clamp(40px, 5vh, 5vh) 0;
+  padding: clamp(60px, 7vh, 7vh) 0;
+  padding-bottom: 0;
 }
 .legacySection__content {
   width: 100%;

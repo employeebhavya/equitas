@@ -98,6 +98,11 @@
   max-height: 450px;
 }
 
+.contentSection h2,
+.contentSection p {
+  color: var(--white);
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .videoSection {
