@@ -3,11 +3,17 @@
   padding: clamp(60px, 7vh, 7vh) 0;
   padding-bottom: 0;
 }
+.sharadamba__mainROw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sharadamba__row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   column-gap: clamp(15px, 2vw, 2vw);
+  width: 80%;
 }
 .sharadamba__column {
   display: flex;
@@ -27,5 +33,8 @@
   }
   .sharadamba__column h2 br {
     display: none;
+  }
+  .sharadamba__row {
+    width: 100%;
   }
 }
