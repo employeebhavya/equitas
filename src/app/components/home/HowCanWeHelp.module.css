@@ -49,7 +49,7 @@
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  bottom: 3px;
+  bottom: 5px;
   left: 0;
   width: 100%;
   padding: clamp(10px, 1vh, 1vh) clamp(15px, 2vw, 2vw);
@@ -78,6 +78,13 @@
     row-gap: 30px;
   }
   .howCanWeHelp__columnMain1 .howCanWeHelp__columnContent {
-    bottom: 6px;
+    bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .howCanWeHelp__columnMain1 {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
   }
 }
