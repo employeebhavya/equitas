@@ -9,6 +9,12 @@
 }
 .sliderConatainer {
   position: relative;
-  background-color: var(--primary);
+  background-color: var(--blue);
   padding: clamp(40px, 5vh, 5vh) 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .line {
+    background-position: right;
+  }
 }

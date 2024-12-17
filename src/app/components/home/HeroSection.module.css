@@ -57,4 +57,10 @@
   .heroSection {
     grid-template-columns: 1fr;
   }
+  .heroSection__button {
+    column-gap: 30px;
+  }
+  .heroSection {
+    background-position: right;
+  }
 }
