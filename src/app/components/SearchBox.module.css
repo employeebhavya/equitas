@@ -1,0 +1,31 @@
+.searchContainer {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: clamp(15px, 1.5vw, 1.5vw);
+  padding: clamp(8px, 0.8vw, 0.8vw) clamp(10px, 1vw, 1vw);
+  width: clamp(200px, 20vw, 20vw);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.searchInput {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: clamp(16px, 1vw, 1vw);
+  color: #333;
+}
+.searchInput::placeholder {
+  color: #aaa;
+}
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  color: #666;
+  font-size: clamp(16px, 1vw, 1vw);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

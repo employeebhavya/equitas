@@ -1,0 +1,85 @@
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 10px;
+  column-gap: clamp(15px, 2vw, 2vw);
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(15px, 2vh, 2vh);
+}
+
+.arrowButton {
+  background-color: white;
+  border: 1px solid #ccc;
+  color: #0068a5;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.arrowButton:hover {
+  background-color: #f0f0f0;
+}
+
+.slideWrapper {
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+}
+
+.slideTrack {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+  padding: clamp(15px, 2vw, 2vw);
+}
+
+.image {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .arrowButton {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrowButton {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .arrowButton {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+}

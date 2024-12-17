@@ -1,0 +1,48 @@
+.legacySection {
+  position: relative;
+  padding: clamp(40px, 5vh, 5vh) 0;
+}
+.legacySection__content {
+  width: 100%;
+  position: relative;
+}
+.legacySection__content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.legacySection__overlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: clamp(300px, 35vw, 35vw);
+  border-radius: clamp(10px, 1vw, 1vw);
+  background-color: var(--white);
+  padding: clamp(15px, 2vw, 2vw);
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(15px, 2vh, 2vh);
+  background-image: url("../../../../public/overlay-bg.png");
+  background-position: center bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.legacySection__overlay ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(10px, 1vh, 1vh);
+}
+.legacySection__overlay ul li {
+  display: flex;
+  align-items: center;
+  column-gap: clamp(5px, 0.5vw, 0.5vw);
+}
+
+@media only screen and (max-width: 768px) {
+  .legacySection__overlay {
+    width: 100%;
+    position: relative;
+  }
+}

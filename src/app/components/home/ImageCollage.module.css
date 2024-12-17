@@ -1,0 +1,26 @@
+.imageCollage {
+  position: relative;
+  padding: clamp(40px, 5vh, 5vh) 0;
+  background-image: url("../../../../public/hero-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imageCollage__mainRow {
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(30px, 4vh, 4vh);
+}
+.imageCollage__mainRow > h2 {
+  color: var(--white);
+  align-self: center;
+}
+.imageCollage__row {
+  position: relative;
+  width: 100%;
+}
+.imageCollage__row img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

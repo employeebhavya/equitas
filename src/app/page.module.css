@@ -1,0 +1,9 @@
+.line {
+  position: relative;
+  background-image: url("../../public/line.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: clamp(10px, 2vh, 2vh);
+  margin-bottom: -1px;
+}

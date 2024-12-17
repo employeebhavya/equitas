@@ -1,0 +1,30 @@
+.sharadamba {
+  position: relative;
+  padding: clamp(40px, 5vh, 5vh) 0;
+}
+.sharadamba__row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: clamp(15px, 2vw, 2vw);
+}
+.sharadamba__column {
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(15px, 2vh, 2vh);
+}
+.sharadamba__column img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .sharadamba__row {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .sharadamba {
+    padding-top: 0;
+  }
+}

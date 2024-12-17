@@ -1,0 +1,123 @@
+/* Container */
+.sectionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.videoSection {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Video Thumbnail */
+.videoThumbnail {
+  position: relative;
+  cursor: pointer;
+  flex: 1;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.playIcon {
+  width: 80px;
+  height: 80px;
+}
+
+/* Content Section */
+.contentSection {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: clamp(15px, 2vh, 2vh);
+}
+
+/* Popup Styles */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popupContent {
+  position: relative;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.videoFrame {
+  width: 100%;
+  height: 45vw;
+  max-height: 450px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .videoSection {
+    flex-direction: column;
+  }
+
+  .contentSection {
+    padding: 1.5rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .paragraph {
+    font-size: 0.9rem;
+  }
+
+  .playIcon {
+    width: 60px;
+    height: 60px;
+  }
+}
