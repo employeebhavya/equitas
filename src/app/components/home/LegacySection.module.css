@@ -41,7 +41,7 @@
   column-gap: clamp(5px, 0.5vw, 0.5vw);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .legacySection__overlay {
     width: 100%;
     position: relative;
